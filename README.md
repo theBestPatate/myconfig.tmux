@@ -24,9 +24,27 @@ sudo apt install tmux
 git clone https://github.com/theBestPatate/myconfig.tmux.git ~/.config/tmux
 ```
 
+## Install TPM (Tmux Plugin Manager)
+3) Clone the TPM repo
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+4) Source your config
+
+Launch a tmux session and source your config file:
+```bash
+tmux
+tmux source ~/.config/tmux/tmux.conf
+```
+
+TPM is now installed !
+
+
 ## Install Plugins
 
-- **Install Plugins**: After starting tmux, press `<C-b> I` (Control + W followed by I) to install the plugins.
+- **Install Plugins**: After starting tmux, press `<C-b> I` (Control + b followed by I) to install the plugins.
 (Capitatlisation is important)
 
 ## Usage
