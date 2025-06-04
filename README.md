@@ -6,7 +6,7 @@ This is my current tmux config. Feel free to copy,change it as I did myself from
 - Vim based pane motion
 - Catpuccin theme
 - Bar
-- Prefix: <C-b>
+- Prefix: `<C-b>`
 
 # Installation
 
